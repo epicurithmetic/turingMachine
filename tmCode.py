@@ -32,7 +32,7 @@ class turingMachine:
         code_file = open(raw_code_file,"r")
         code_raw = code_file.read()
         # This regex sub allows for comments in the code between angle brackets on a single line.
-        code_raw = re.sub("\<.*?\>\n","",code_raw)
+        code_raw = re.sub("\#.*?\#\n","",code_raw)
         raw_code_list = code_raw.split(";\n")[:-1]
         # At this point code_raw is a list of states in "standard form"
         code_file.close()
