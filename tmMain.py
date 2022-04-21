@@ -1,9 +1,9 @@
 from tmCode import turingMachine
 
-# Write the machine code file here.
+# Write the name of the machine code file here.
 tm_code = "tm-code-binaryaddition.txt"
 
-# Write the input tape file here.
+# Write the name of the input tape file here.
 tm_tape = "tm-tape.txt"
 
 # This line intialises the Turing Machine with code and tape.
